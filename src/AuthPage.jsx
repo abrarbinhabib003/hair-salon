@@ -17,7 +17,7 @@ const AuthPage = () => {
         
         <div className="hidden lg:block w-1/2">
           <img
-            src="https://via.placeholder.com/600x600"
+            src="./assets/auth.jpeg"
             alt="Auth Image"
             className="w-full h-full object-cover rounded-l-lg"
           />

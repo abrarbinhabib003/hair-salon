@@ -1,23 +1,26 @@
 import React from "react";
+import beardImg from './assets/beard.jpeg';
+import hairstyleImg from './assets/hairstyle.jpeg';
+import haircareImg from './assets/haircare.jpeg';
 
 const LatestBlogs = () => {
   const blogs = [
     {
       title: "How to Style Your Hair Like a Pro",
       description: "Learn the latest hair styling tips and tricks from the experts to get the perfect look every time.",
-      image: "https://via.placeholder.com/400x250",
+      image: hairstyleImg,
       link: "/blog/1",
     },
     {
       title: "The Best Hair Care Products for Healthy Hair",
       description: "Discover the must-have hair care products that will keep your hair healthy, shiny, and strong.",
-      image: "https://via.placeholder.com/400x250",
+      image: haircareImg,
       link: "/blog/2",
     },
     {
       title: "Top 5 Beard Grooming Tips Every Man Should Know",
       description: "A guide to keeping your beard in top shape with expert grooming tips.",
-      image: "https://via.placeholder.com/400x250",
+      image: beardImg,
       link: "/blog/3",
     },
   ];

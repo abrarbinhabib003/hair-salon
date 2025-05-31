@@ -2,37 +2,43 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import b1 from './assets/b1.jpeg';
+import b2 from './assets/b2.jpeg';
+import b3 from './assets/b3.jpeg';
+import g1 from './assets/g1.jpeg';
+import g2 from './assets/g2.jpeg';
+import g3 from './assets/g3.jpeg';
 
 const testimonials = [
   {
     name: "Alice Johnson",
     review: "Amazing service! The stylists are professionals and know exactly what suits you best.",
-    image: "https://via.placeholder.com/100",
+    image: g1,
   },
   {
     name: "Mark Benson",
     review: "Best hair salon in town! Highly recommend their beard styling services.",
-    image: "https://via.placeholder.com/100",
+    image: b1,
   },
   {
     name: "Sophia Williams",
     review: "Loved the ambiance and their customer service. Will definitely visit again!",
-    image: "https://via.placeholder.com/100",
+    image: g2,
   },
   {
     name: "Daniel Roberts",
     review: "A perfect place for a haircut. The experience was fantastic!",
-    image: "https://via.placeholder.com/100",
+    image: b2,
   },
   {
     name: "Emma Brown",
     review: "Their hair coloring services are top-notch. So happy with my new look!",
-    image: "https://via.placeholder.com/100",
+    image: g3,
   },
   {
     name: "Chris Evans",
     review: "Great place, friendly staff, and professional service. 10/10!",
-    image: "https://via.placeholder.com/100",
+    image: b3,
   },
 ];
 

@@ -1,4 +1,8 @@
 import React from "react";
+import b4 from './assets/b4.jpeg';
+import b5 from './assets/b5.jpeg';
+import g4 from './assets/g4.jpeg';
+import g5 from './assets/g5.jpeg';
 
 const TeamMembers = () => {
   const team = [
@@ -6,25 +10,25 @@ const TeamMembers = () => {
       name: "John Doe",
       speciality: "Hair Stylist",
       experience: "10+ Years",
-      image: "https://via.placeholder.com/150",
+      image: b4,
     },
     {
       name: "Jane Smith",
       speciality: "Color Expert",
       experience: "8 Years",
-      image: "https://via.placeholder.com/150",
+      image: g4,
     },
     {
       name: "Mike Johnson",
       speciality: "Beard Specialist",
       experience: "5 Years",
-      image: "https://via.placeholder.com/150",
+      image: b5,
     },
     {
       name: "Emily Brown",
       speciality: "Makeup Artist",
       experience: "7 Years",
-      image: "https://via.placeholder.com/150",
+      image: g5,
     },
   ];
 
